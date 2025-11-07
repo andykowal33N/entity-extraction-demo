@@ -1,0 +1,56 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+.env
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Logs and outputs
+*.log
+*.tmp
+*.bak
+*.old
+*.out
+
+# Data and artifacts
+data/raw/
+data/interim/
+data/processed/
+*.csv
+*.json
+*.xlsx
+*.parquet
+
+# Secrets / API keys (never commit!)
+*.env
+apikeys.json
+config.yaml
+
+# Reports / docs build
+docs/_build/
