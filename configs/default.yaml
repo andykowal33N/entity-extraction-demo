@@ -1,0 +1,15 @@
+run_name: "dev-run"
+model:
+  backend: "spacy"
+  spacy_model: "en_core_web_sm"   # change to en_core_web_trf later if you want transformers
+io:
+  input_path: "data/sample.txt"   # accepts .txt, .csv (column 'text'), or .jsonl (key 'text')
+  output_path: "outputs/dev-run.jsonl"
+processing:
+  lowercase: false
+  strip_whitespace: true
+  dedupe_entities: true
+  include_context: true
+export:
+  format: "jsonl"                 # jsonl or csv
+  include_scores: true
