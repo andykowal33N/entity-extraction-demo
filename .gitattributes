@@ -1,0 +1,22 @@
+# Normalize line endings across platforms
+* text=auto eol=lf
+
+# Ensure all text files use UTF-8
+*.py text working-tree-encoding=UTF-8
+*.md text working-tree-encoding=UTF-8
+*.json text working-tree-encoding=UTF-8
+*.yml text working-tree-encoding=UTF-8
+*.yaml text working-tree-encoding=UTF-8
+*.csv text working-tree-encoding=UTF-8
+
+# Binary files (no diff)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.pdf binary
+*.zip binary
+*.ipynb binary
+
+# Improve GitHub language stats (treat notebooks as Python)
+*.ipynb linguist-language=Python
