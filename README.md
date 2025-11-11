@@ -1,17 +1,25 @@
-# Entity Extraction Demo
+# Sample Data Pack — entity-extraction-demo
 
-Multilingual entity extraction demo comparing LLM and spaCy pipelines for identity and risk analysis. Shows alias linking, normalization, and structured output for vetting and due-diligence workflows.
+All data is **synthetic** and safe for public use.
 
-## Overview
-This project benchmarks modern AI and NLP models for extracting people, organizations, and locations from open-source or investigative text. It highlights how multilingual entity resolution supports continuous vetting and risk intelligence missions.
+## Files
 
-## Features
-- Compare LLM vs. spaCy extraction accuracy  
-- Test multilingual text (English, Spanish, Arabic, Cyrillic)  
-- Demonstrate alias linking and entity normalization  
-- Export entities to JSON for downstream analytics  
+- `customer_records.csv` — tabular CRM-like rows (names, emails, phones, addresses).
+- `news_articles.jsonl` — one JSON object per line with short news snippets.
+- `chat_transcripts.jsonl` — synthetic two-message helpdesk-style chats.
+- `sanctions_list.csv` — tiny, toy sanctions-style lookup with aliases.
+- `resumes/` — three plain-text resume snippets.
+- `gold_labels/` — toy gold labels for a couple of sources to demo eval.
 
-## Tech Stack
-`Python` • `spaCy` • `pandas` • `OpenAI API` • `Jupyter` • `matplotlib`
+## Suggested Tasks
 
-## Structure
+- NER on `news_articles.jsonl` and `chat_transcripts.jsonl`.
+- PII extraction + validation on `customer_records.csv`.
+- Alias resolution using `sanctions_list.csv` and `resumes/`.
+- Simple precision/recall against `gold_labels/` (example only).
+
+## License
+
+CC0-1.0 — Public-domain dedication for this sample pack.
+
+Generated on 2025-11-11.
