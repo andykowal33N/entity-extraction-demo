@@ -1,0 +1,6 @@
+customer_id,full_name,email,phone,address,city,state,postal_code,country,dob,gov_id
+1001,Ava K. Ramirez,ava.ramirez@example.com,+1-202-555-0142,742 Harbor View Rd,Southport,NC,28461,USA,1986-03-12,ID-7Q2M9
+1002,Malcolm J. Pierce,malcolm.pierce@example.com,+1-910-555-2299,18 Bay Street,Wilmington,NC,28401,USA,1979-11-05,ID-4B1C8
+1003,Cindy L. Kowal,cindy.k@example.org,+1-703-555-8821,411 Dockside Ln,Alexandria,VA,22314,USA,1968-07-21,ID-9X0A4
+1004,Andrew T. Kowal,andrew.k@example.org,+1-804-555-3301,290 River Bend Dr,Richmond,VA,23220,USA,1992-10-02,ID-2L7D6
+1005,John C. Kowal,conor.k@example.org,+1-757-555-7723,33 Marsh Point Way,Virginia Beach,VA,23451,USA,1994-10-25,ID-5P8F3
