@@ -1,0 +1,9 @@
+Name: Jordan Patel
+Email: jordan.patel@example.org
+Phone: +1 703 555 0192
+Location: McLean, VA
+Summary: Supply-chain risk analyst specializing in FOCI indicators.
+Experience:
+  - Senior Analyst, Allocor (2021–2025)
+  - Consultant, Govini (2017–2021)
+Education: B.S. Industrial Engineering, Virginia Tech

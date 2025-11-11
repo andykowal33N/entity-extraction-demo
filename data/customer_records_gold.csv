@@ -1,0 +1,4 @@
+source_file,span_text,entity_type,start,end,record_id
+customer_records.csv,Ava K. Ramirez,PERSON,0,0,1001
+customer_records.csv,ava.ramirez@example.com,EMAIL,0,0,1001
+customer_records.csv,Southport,GPE,0,0,1001
